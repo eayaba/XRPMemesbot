@@ -76,8 +76,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         [InlineKeyboardButton("📢 Join Telegram Group", url=TELEGRAM_GROUP_LINK)],
         [InlineKeyboardButton("🐦 Follow on Twitter/X", url=TWITTER_LINK)],
         [
-            InlineKeyboardButton("#3 📱 Android", url=PLAY_STORE_LINK),
-            InlineKeyboardButton("#3 🍏 iPhone", url=APP_STORE_LINK)
+            InlineKeyboardButton("3️⃣ 📱 Android", url=PLAY_STORE_LINK),
+            InlineKeyboardButton("3️⃣ 🍏 iPhone", url=APP_STORE_LINK)
         ],
         [InlineKeyboardButton("🔗 Activate Referral Program", url=REFERRAL_PROGRAM_LINK)],
         [InlineKeyboardButton("✅ Verify All Tasks", callback_data='verify')]
